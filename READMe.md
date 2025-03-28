@@ -1,29 +1,35 @@
-## 🐱‍🏍✨Flask E-commerce Application with Gunicorn✨🐱‍🏍
+Flask E-commerce Application
 
-🐍Python Project🐍
+Overview
 
-📌Customers can sign in or sign up
-📌Customers can reset their passwords
-📌Customers can search for goods
-📌Add them to their cart
-📌Payment Gateway Functionality
-📌Admins can regulate shop products e.g stock level
-📌Admins can change order status
+This project is a Flask-based E-commerce Application optimized for production using Gunicorn. It allows customers to browse and purchase products while providing administrators with tools to manage inventory and order statuses. The application is containerized using Docker for seamless deployment.
 
+Features
 
-OVERVIEW
+✅ Customer Features
 
-This Docker image packages a Flask-based e-commerce application, optimized for production use with Gunicorn. The lightweight python:3.8-slim base image ensures efficient and quick deployment.
+User authentication (sign in/sign up)
 
-FEATURES
+Password reset functionality
 
-Flask Framework: Robust and scalable web application built with Flask.
-Gunicorn Server: High-performance WSGI server for running Python web applications.
-Efficient: Slim Python base image minimizes overhead.
+Product search and filtering
 
-HOW TO USE 
+Shopping cart management
 
-docker pull monish247/ecommerce_python_image:latest   
+Secure payment gateway integration
 
-docker run -itd -p 8034:80 monish247/ecommerce_python_image:latest
+✅ Admin Features
 
+Manage product listings and stock levels
+
+Update order statuses
+
+Oversee customer transactions
+
+✅ Technical Features
+
+Built using Flask for a lightweight, scalable backend
+
+Runs on Gunicorn for high-performance request handling
+
+Uses a Python 3.8-slim base image for efficient deployment
